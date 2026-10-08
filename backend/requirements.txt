@@ -1,0 +1,8 @@
+langchain
+langchain-huggingface
+transformers
+huggingface-hub
+torch==2.14.1
+python-dotenv
+accelerate
+sentencepiece

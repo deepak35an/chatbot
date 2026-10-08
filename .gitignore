@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual Environment
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Hugging Face Cache / Models
+# =========================
+.cache/
+huggingface/
+huggingface_cache/
+transformers_cache/
+
+# Hugging Face default cache
+**/.cache/huggingface/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Test / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================
+# Local Model Files
+# =========================
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# =========================
+# Generated / Local Data
+# =========================
+data/
+models/
+outputs/
